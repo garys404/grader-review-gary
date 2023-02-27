@@ -8,7 +8,7 @@ We should type `ssh cs15lwi23ahl@ieng6.ucsd.edu` and `<enter>`in terminal to do 
 ### Step 5. Clone your fork of the repository from your Github account:
 Now, we need to make a fork of the repository [lab7 repository](https://github.com/ucsd-cse15l-w23/lab7)
 
-After clicking on the website, we need to click `Code` and click `SSH` and copy the content of SSH
+After clicking on the website, we need to click `Code` and click `SSH` and copy the content of `SSH`
    ![Image](Step5.1.png)
    
 Now, we should type `git clone git@github.com:garys404/lab7.git` and `<enter>` in our terminal
