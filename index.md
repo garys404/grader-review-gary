@@ -6,8 +6,9 @@ We should type `ssh cs15lwi23ahl@ieng6.ucsd.edu` and `<enter>`in terminal to do 
    ![Image](Step4.png)
 
 ### Step 5. Clone your fork of the repository from your Github account:
-Now, we should type `git clone git@github.com:garys404/lab7.git` and `<enter>`
+Now, we just make a fork of the repository
    ![Image](Step5.1.png)
+Now, we should type `git clone git@github.com:garys404/lab7.git` and `<enter>` in our terminal
    ![Image](Step5.2.png)
 
 ### Step 6. Run the tests, demonstrating that they fail:
