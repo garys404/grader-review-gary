@@ -10,7 +10,9 @@ Now, we need to make a fork of the repository [lab7 repository](https://github.c
 
 After clicking on the website, we need to click `Code` and click `SSH` and copy the content of SSH
    ![Image](Step5.1.png)
+   
 Now, we should type `git clone git@github.com:garys404/lab7.git` and `<enter>` in our terminal
+
    ![Image](Step5.2.png)
 
 ### Step 6. Run the tests, demonstrating that they fail:
@@ -30,10 +32,10 @@ And we find there was 1 failture:
 So now, we want to edit the code and fix it. We type `vim ListExamples.java` and `<enter>` to use vim editor to open `ListExamples.java`.
    ![Image](Step7.1.png)
    
-Now, we can see the details of `ListExamples.java`. And We press `i` to open the insert mode. so we can change it.
+Now, we can see the details of `ListExamples.java`. And We press `i` to open the insert mode that we can change it.
    ![Image](Step7.2.png)
    
-So we need to find what mistakes the file make. We can find a clear mistake. When the file compare `index2` and `list2.size()`, it should relate to `index2`, and doesn't relate to `index1`. So we should change `index1` to `index2` 
+In order to find what mistakes the file make, we need to look over the file. Here is a clear mistake. When the file compare `index2` and `list2.size()`, it should relate to `index2`, and doesn't relate to `index1`. So we should change `index1` to `index2`, which means we fix the mistake.
 
 Before fixing:
    ![Image](Step7.3.png)
