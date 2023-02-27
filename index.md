@@ -14,9 +14,12 @@ Now, we should type `git clone git@github.com:garys404/lab7.git` and `<enter>` i
    ![Image](Step5.2.png)
 
 ### Step 6. Run the tests, demonstrating that they fail:
-After that, we should enter the lab7 respository by using `cd lab7`and `<enter>`
+We should enter the lab7 respository first by using `cd lab7`and `<enter>`
+
 When entering lab7, we can use `ls` and `<enter>`to find what files the lab7 has.
+
 Now, we can run our test. First, we need to complie `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `<enter>`
+
 Next, we need to run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` and `<enter>`
    ![Image](Step6.1.png)
 So the we find there was 1 failture:
@@ -45,6 +48,7 @@ Now we need to press `esc` in our keyboard to exit the insert mode, and type `:w
 
 ### Step 9. Commit and push the resulting change to your Github account (you can pick any commit message!):
 Now we need to type `git add *` and `<enter>` to make all the changes in the directory get ready to push.
+
 Next, we type `git commit -m "Bugs fixed"` and `<enter>` to commit all the changes, and comment it to "Bugs fixed" to show what I fixed it.
    ![Image](Step9.1.png)
 Finally, we type `git push` and `<enter>` so we upload our files into my github account.
