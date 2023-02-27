@@ -22,19 +22,25 @@ Now, we can run our test. First, we need to complie `javac -cp .:lib/hamcrest-co
 
 Next, we need to run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` and `<enter>`
    ![Image](Step6.1.png)
-So the we find there was 1 failture:
+   
+And we find there was 1 failture:
    ![Image](Step6.2.png)
    
 ### Step 7. Edit the code file to fix the failing test:
 So now, we want to edit the code and fix it. We type `vim ListExamples.java` and `<enter>` to use vim editor to open `ListExamples.java`.
    ![Image](Step7.1.png)
+   
 Now, we can see the details of `ListExamples.java`. And We press `i` to open the insert mode. so we can change it.
    ![Image](Step7.2.png)
+   
 So we need to find what mistakes the file make. We can find a clear mistake. When the file compare `index2` and `list2.size()`, it should relate to `index2`, and doesn't relate to `index1`. So we should change `index1` to `index2` 
+
 Before fixing:
    ![Image](Step7.3.png)
+   
 After fixing:
    ![Image](Step7.4.png)
+   
 Now we need to press `esc` in our keyboard to exit the insert mode, and type `:wq` and `<enter>`in terminal to reserve and exit out `ListExamples.java`
    ![Image](Step7.5.png)
 
