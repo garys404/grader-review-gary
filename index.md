@@ -12,7 +12,6 @@ After clicking on the website, we need to click `Code` and click `SSH` and copy 
    ![Image](Step5.1.png)
    
 Now, we should type `git clone git@github.com:garys404/lab7.git` and `<enter>` in our terminal
-
    ![Image](Step5.2.png)
 
 ### Step 6. Run the tests, demonstrating that they fail:
@@ -59,8 +58,10 @@ Now we need to type `git add *` and `<enter>` to make all the changes in the dir
 
 Next, we type `git commit -m "Bugs fixed"` and `<enter>` to commit all the changes, and comment it to "Bugs fixed" to show what I fixed it.
    ![Image](Step9.1.png)
+   
 Finally, we type `git push` and `<enter>` so we upload our files into my github account.
    ![Image](Step9.2.png)
+   
 Now we can find the change in my github account !
    ![Image](Step9.3.png)
 
